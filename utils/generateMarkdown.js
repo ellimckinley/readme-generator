@@ -78,7 +78,7 @@ ${data.description}
 ${data.installationInst}
 
 ## Usage Information
-${data.usage}
+[![Video Demo](${data.thumbnail})](${data.video})
 
 ${licenseSection}
 

@@ -1,7 +1,7 @@
 # README Generator
 
 ## Description
-This app easily prompts for required information to create a high quality README file within the repository. 
+This app easily prompts for required information to create a high quality README file within the repository.
 
 ## Table of Contents
 - [Installation Instructions](#installation-instructions)
@@ -16,7 +16,7 @@ This app easily prompts for required information to create a high quality README
 Use standard git clone process to download files.
 
 ## Usage Information
-To run this app, use 'node index.js' in your command line and you will be prompted with a series of questions
+[![Video Demo](https://cdn.loom.com/sessions/thumbnails/74fe84bb8347479297c208ea325eba6a-ca82597f78782515-full-play.gif)](https://www.loom.com/embed/74fe84bb8347479297c208ea325eba6a?sid=c21a9552-d72b-40dc-9a83-a7c8a579f584)
 
 ## License
 
@@ -36,4 +36,4 @@ For additional questions an instructions, please contact me at elli.mckinley@gma
  Checkout my other GitHub projects: @ellimckinley.
 
 ## Resources
-- GitHubGist article by lucas-h (https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
+GitHubGist article by lucas-h (https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)

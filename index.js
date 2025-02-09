@@ -24,8 +24,13 @@ const questions = [
       },
       {
         type: 'input',
-        message: 'What is the usage information',
-        name: 'usage',
+        message: 'Enter the thumbnail link to video walk through:',
+        name: 'thumbnail',
+      },
+      {
+        type: 'input',
+        message: 'Enter the video link to video walk through:',
+        name: 'video',
       },
       {
         type: 'list',
