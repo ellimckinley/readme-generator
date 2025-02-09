@@ -18,7 +18,8 @@ function renderLicenseBadge(license) {
     return licenseBadge[license]
   } else {
     return "";
-}}
+  }
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -39,7 +40,8 @@ function renderLicenseLink(license) {
     return licenseLink[license]
   } else {
     return "";
-  }}
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -62,6 +64,13 @@ function generateMarkdown(data) {
 
 ## Description
 ${data.description}
+
+## Table of Contents
+- [Installation Instructions](#installationInst)
+- [Usage Information](#usage)
+- [License](#license)
+- [Contribution Guidelines](#contributionGL)
+- [Test Instructions](#testInst)
 
 ## Installation Instructions
 ${data.installationInst}
