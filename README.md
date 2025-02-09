@@ -13,10 +13,10 @@ This app allows developers to easily and quickly create a high quality README fi
 - [Resources](#resources)
 
 ## Installation Instructions
-Use the standard git clone process to download files. 
+Use the standard git clone process to download files.
 
 ## Usage Information
-[![Video Demo](link)](link)
+[![Video Demo](https://cdn.loom.com/sessions/thumbnails/e61dc768e50a40479128917f03856b2a-f1f325e088d79314-full-play.gif)](https://www.loom.com/embed/e61dc768e50a40479128917f03856b2a?sid=2765bb05-fc10-4478-9746-005fdf436e35)
 
 ## License
 
@@ -25,10 +25,10 @@ Use the standard git clone process to download files.
  This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
 
 ## Contribution Guidelines
-
+None at this time.
 
 ## Testing Instructions
-none at this time.
+None at this time.
 
 ## Questions
 For additional questions an instructions, please contact me at elli.mckinley@gmail.com.
