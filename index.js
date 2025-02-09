@@ -37,6 +37,11 @@ const questions = [
         message: 'What are the testing instructions?',
         name: 'testInst',
       },
+      {
+        type: 'input',
+        message: 'What resources were used?',
+        name: 'resources',
+      }
 ];
 
 // TODO: Create a function to write README file

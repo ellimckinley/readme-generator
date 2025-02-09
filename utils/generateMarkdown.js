@@ -50,7 +50,7 @@ function renderLicenseSection(license) {
   const link = renderLicenseLink(license);
   
   if (badge && link) {
-  return `## License\n\n ${badge}\n\n This project is licensed under the ${license} license. ${link}`;
+  return `## License\n\n ${badge}\n\n This project is licensed under the [${license}](${link}) license.`;
   } else {
     return "";
   }
@@ -71,6 +71,7 @@ ${data.description}
 - [License](#license)
 - [Contribution Guidelines](#contributionGL)
 - [Test Instructions](#testInst)
+- [Resources](#resources)
 
 ## Installation Instructions
 ${data.installationInst}
@@ -85,6 +86,9 @@ ${data.contributionGL}
 
 ## Test Instructions
 ${data.testInst}
+
+## Resources
+${data.resources}
 `;
 }
 

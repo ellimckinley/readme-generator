@@ -1,7 +1,7 @@
-# My Project
+# README Generator
 
 ## Description
-Description of project...
+Description of project
 
 ## Table of Contents
 - [Installation Instructions](#installationInst)
@@ -9,21 +9,25 @@ Description of project...
 - [License](#license)
 - [Contribution Guidelines](#contributionGL)
 - [Test Instructions](#testInst)
+- [Resources](#resources)
 
 ## Installation Instructions
-Installation instructions...
+Installation instructions
 
 ## Usage Information
-Usage information...
+Usage information
 
 ## License
 
  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
- This project is licensed under the MIT license. https://opensource.org/licenses/MIT
+ This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
 
 ## Contribution Guidelines
-Contribution guidelines...
+Contribution Guidelines
 
 ## Test Instructions
-Testing instructions...
+Testing Instructions
+
+## Resources
+- Used GitHubGist article by lucas-h (https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
