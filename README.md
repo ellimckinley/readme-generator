@@ -1,7 +1,7 @@
 # README Generator
 
 ## Description
-This app easily prompts for required information to create a high quality README file within the repository.
+This app allows developers to easily and quickly create a high quality README file for their applications via a series of command line prompts.
 
 ## Table of Contents
 - [Installation Instructions](#installation-instructions)
@@ -13,10 +13,10 @@ This app easily prompts for required information to create a high quality README
 - [Resources](#resources)
 
 ## Installation Instructions
-Use standard git clone process to download files.
+Use the standard git clone process to download files. 
 
 ## Usage Information
-[![Video Demo](https://cdn.loom.com/sessions/thumbnails/74fe84bb8347479297c208ea325eba6a-ca82597f78782515-full-play.gif)](https://www.loom.com/embed/74fe84bb8347479297c208ea325eba6a?sid=c21a9552-d72b-40dc-9a83-a7c8a579f584)
+[![Video Demo](link)](link)
 
 ## License
 
@@ -25,10 +25,10 @@ Use standard git clone process to download files.
  This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
 
 ## Contribution Guidelines
-No contributions are allowed at this time.
+
 
 ## Testing Instructions
-None
+none at this time.
 
 ## Questions
 For additional questions an instructions, please contact me at elli.mckinley@gmail.com.
@@ -36,4 +36,4 @@ For additional questions an instructions, please contact me at elli.mckinley@gma
  Checkout my other GitHub projects: @ellimckinley.
 
 ## Resources
-GitHubGist article by lucas-h (https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
+- GitHubGist article by lucas-h (https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
