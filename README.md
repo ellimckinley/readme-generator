@@ -1,21 +1,22 @@
 # README Generator
 
 ## Description
-Description of project
+This app easily prompts for required information to create a high quality README file within the repository. 
 
 ## Table of Contents
-- [Installation Instructions](#installationInst)
-- [Usage Information](#usage)
+- [Installation Instructions](#installation-instructions)
+- [Usage Information](#usage-information)
 - [License](#license)
-- [Contribution Guidelines](#contributionGL)
-- [Test Instructions](#testInst)
+- [Contribution Guidelines](#contribution-guidelines)
+- [Testing Instructions](#testing-instructions)
+- [Questions](#questions)
 - [Resources](#resources)
 
 ## Installation Instructions
-Installation instructions
+Use standard git clone process to download files.
 
 ## Usage Information
-Usage information
+To run this app, use 'node index.js' in your command line and you will be prompted with a series of questions
 
 ## License
 
@@ -24,10 +25,15 @@ Usage information
  This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
 
 ## Contribution Guidelines
-Contribution Guidelines
+No contributions are allowed at this time.
 
-## Test Instructions
-Testing Instructions
+## Testing Instructions
+None
+
+## Questions
+For additional questions an instructions, please contact me at elli.mckinley@gmail.com.
+
+ Checkout my other GitHub projects: @ellimckinley.
 
 ## Resources
-- Used GitHubGist article by lucas-h (https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
+- GitHubGist article by lucas-h (https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)

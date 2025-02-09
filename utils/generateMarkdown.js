@@ -66,11 +66,12 @@ function generateMarkdown(data) {
 ${data.description}
 
 ## Table of Contents
-- [Installation Instructions](#installationInst)
-- [Usage Information](#usage)
+- [Installation Instructions](#installation-instructions)
+- [Usage Information](#usage-information)
 - [License](#license)
-- [Contribution Guidelines](#contributionGL)
-- [Test Instructions](#testInst)
+- [Contribution Guidelines](#contribution-guidelines)
+- [Testing Instructions](#testing-instructions)
+- [Questions](#questions)
 - [Resources](#resources)
 
 ## Installation Instructions
@@ -84,8 +85,11 @@ ${licenseSection}
 ## Contribution Guidelines
 ${data.contributionGL}
 
-## Test Instructions
+## Testing Instructions
 ${data.testInst}
+
+## Questions
+For additional questions an instructions, please contact me at ${data.email}.\n\n Checkout my other GitHub projects: ${data.github}.
 
 ## Resources
 ${data.resources}

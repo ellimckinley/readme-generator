@@ -28,6 +28,12 @@ const questions = [
         name: 'usage',
       },
       {
+        type: 'list',
+        message: 'What license is being used',
+        name: 'license',
+        choices: ['MIT', 'Apache', 'Boost Sodftware License 1.0', 'GNU GPLv2', 'GNU GPLv2', 'ISC License', 'CCO-1.0', 'CC-BY-4.0', 'CC-BY-SA-4.0'],
+      },
+      {
         type: 'input',
         message: 'What are the contribution guidelines',
         name: 'contributionGL',
@@ -41,6 +47,16 @@ const questions = [
         type: 'input',
         message: 'What resources were used?',
         name: 'resources',
+      },
+      {
+        type: 'input',
+        message: 'What email is used for questions?',
+        name: 'email',
+      },
+      {
+        type: 'input',
+        message: 'What is github handle?',
+        name: 'github',
       }
 ];
 
@@ -54,45 +70,45 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((answers) => {
-      if (fs.existsSync('LICENSE')) {
-        const licenseContent = fs.readFileSync('LICENSE', 'utf-8');
-        // console.log('License File Content:', licenseContent)
-        const licenseType = extractLicenseType(licenseContent);
-        // console.log('License Type Extracted:', licenseType);
-        answers.license = licenseType;
-      } else {
-        answers.license = '';
-      }
+      // if (fs.existsSync('LICENSE')) {
+      //   const licenseContent = fs.readFileSync('LICENSE', 'utf-8');
+      //   // console.log('License File Content:', licenseContent)
+      //   const licenseType = extractLicenseType(licenseContent);
+      //   // console.log('License Type Extracted:', licenseType);
+      //   answers.license = licenseType;
+      // } else {
+      //   answers.license = '';
+      // }
         const readmeContent = generateMarkdown(answers);
         // console.log('Generated README content:', readmeContent);
         writeToFile('README.md', readmeContent);
     });
 }
 
-//Function to extract license type from the LICENSE file content
-function extractLicenseType(content) {
-  if (content.includes('MIT License')){
-    return 'MIT';
-  } else if (content.includes('Apache License')) {
-    return 'Apache 2.0';
-  } else if (content.includes('Boost')) {
-    return 'Boost Software License 1.0';
-  } else if (content.includes('GNU GPLv2')) {
-    return 'GNU GPLv2';
-  } else if (content.includes('GNU GPLv3')) {
-    return 'GNU GPLv3';
-  } else if (content.includes('ISC')) {
-    return 'ISC License';
-  } else if (content.includes('CC0-1.0')) {
-    return 'CC0-1.0';
-  } else if (content.includes('CC-BY-4.0')) {
-    return 'CC-BY-4.0';
-  } else if (content.includes('CC-BY-SA-4.0')) {
-    return 'CC-BY-SA-4.0';
-  } else {
-    return '';
-  }
-}
+// //Function to extract license type from the LICENSE file content
+// function extractLicenseType(content) {
+//   if (content.includes('MIT License')){
+//     return 'MIT';
+//   } else if (content.includes('Apache License')) {
+//     return 'Apache 2.0';
+//   } else if (content.includes('Boost')) {
+//     return 'Boost Software License 1.0';
+//   } else if (content.includes('GNU GPLv2')) {
+//     return 'GNU GPLv2';
+//   } else if (content.includes('GNU GPLv3')) {
+//     return 'GNU GPLv3';
+//   } else if (content.includes('ISC')) {
+//     return 'ISC License';
+//   } else if (content.includes('CC0-1.0')) {
+//     return 'CC0-1.0';
+//   } else if (content.includes('CC-BY-4.0')) {
+//     return 'CC-BY-4.0';
+//   } else if (content.includes('CC-BY-SA-4.0')) {
+//     return 'CC-BY-SA-4.0';
+//   } else {
+//     return '';
+//   }
+// }
 
 // function generateREADME(data) {
 //     return `# ${data.projectTitle}
